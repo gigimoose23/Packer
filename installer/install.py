@@ -1,9 +1,10 @@
 print("[\033[34minfo\033[0m] Would you like to install Packer? ([\033[34my\033[0m]/\033[31mn\033[0m])")
 response = input("")
 import platform
+from install_api import sysinstall
 
 def install(os):
-    print("Downloading module")
+    sysinstall(val="hi")
     
 
 
